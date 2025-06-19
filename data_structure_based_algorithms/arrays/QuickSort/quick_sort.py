@@ -62,6 +62,10 @@ if __name__ == "__main__":
 
 
 # Time Complexity:
-# Best case: O(n log(n))
-# Average case: O(n log(n))
+# Best case: O(n log n)
+# Average case: O(n log n)
 # Worst case: O(n^2)
+
+# Space Complexity:
+# Worst case: O(n) auxiliary stack space (when the recursion is unbalanced)
+# Best/Average case: O(log n) auxiliary stack space (when the recursion is balanced)

@@ -65,6 +65,10 @@ if __name__ == '__main__':
     print('Sorted Array: ', arr)
 
 # Time Complexity:
-# Best case: O(n log(n))
-# Average case: O(n log(n))
-# Worst case: O(n log(n))
+# Best case: O(n log n)
+# Average case: O(n log n)
+# Worst case: O(n log n)
+
+# Space Complexity:
+# Merge sort requires additional space for the temporary arrays used during merging.
+# Space complexity: O(n), where n is the number of elements in the input list.
