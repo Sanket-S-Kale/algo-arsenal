@@ -10,7 +10,7 @@ Mark tasks as you complete them: `[ ]` → `[x]`
 
 ### 🔢 Arrays
 - [x] Understand array indexing, resizing, operations
-- [ ] Implement binary search
+- [x] Implement binary search
 - [x] Implement merge sort
 - [x] Implement quick sort
 - [ ] Solve sliding window pattern problems
