@@ -9,10 +9,10 @@ Mark tasks as you complete them: `[ ]` → `[x]`
 ## 🧩 Section 1: Data Structure-Based Algorithms
 
 ### 🔢 Arrays
-- [ ] Understand array indexing, resizing, operations
+- [x] Understand array indexing, resizing, operations
 - [ ] Implement binary search
-- [ ] Implement merge sort
-- [ ] Implement quick sort
+- [x] Implement merge sort
+- [x] Implement quick sort
 - [ ] Solve sliding window pattern problems
 - [ ] Solve two pointers pattern problems
 

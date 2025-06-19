@@ -3,11 +3,12 @@ class QuickSort:
 
     # This is the main QuickSort function.
     # It sorts the part of the list from index 'low' to 'high'
+    # Quick Sort uses the Divide & Conquer strategy
     def quickSort(self, arr: list[int], low: int, high: int) -> list[int]:
         # We sort only if there are at least two elements
         if low < high:
             # Find the correct position (index) of the pivot element
-            pivot_index = self.partition(arr, low, high)
+            pivot_index = self._partition(arr, low, high)
             
             # Recursively sort the part before the pivot
             self.quickSort(arr, low, pivot_index - 1)
@@ -21,7 +22,7 @@ class QuickSort:
     # This function chooses a pivot (last element at index high)
     # and arranges elements so that all smaller elements are on the left,
     # and bigger ones are on the right.
-    def partition(self, arr: list[int], low: int, high: int) -> int:
+    def _partition(self, arr: list[int], low: int, high: int) -> int:
         # Choose the last element as the pivot
         pivot = arr[high]
 
@@ -58,3 +59,9 @@ if __name__ == "__main__":
     print("Original array:", array)
     qs.quickSort(array, 0, len(array) - 1)  # Sort the list using QuickSort
     print("Sorted array:", array)
+
+
+# Time Complexity:
+# Best case: O(n log(n))
+# Average case: O(n log(n))
+# Worst case: O(n^2)
